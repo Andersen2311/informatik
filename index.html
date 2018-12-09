@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<title>Jacobs Jammerlige Blog</title>
+			<link rel="stylesheet" type="text/css" href="test01.css">
+		</head>
+		<body>
+			<header id="header1"><h1 id="header1">Jacobs Jammerlige Blog</h1></header>
+			<button onclick="spoilerShowHide1()">Hvor har du trukket dit kørekort???</button>
+			<div id="spoiler1">
+				<p Id="paragraph1">Hvordan kan det være, at alle andre bilister end mig, slet ikke kan finde ud af at køre bil? Og hvordan kan det være, at de ikke har selvindsigt til at se, at jeg
+				kører så meget bedre end dem. Og så synes jeg i øvrigt ikke, at der er grund til sure miner, når jeg bruger horn og lygter til at fortælle dem, at de aldrig skulle
+				være lukket ud af køretekniskanlæg. Når jeg bruger horn og lygter, er det jo en service! Det er blot for at fortælle dem at: 1) Jeg er en bedre billist end de er. 2)
+				Jeg har mere travlt end de har. Og 3) jeg er vigtigere end de er. Men det er som om, at de ikke sætter pris på min service. Og så er der cykelisterne... men det bliver
+				lige i en anden post</p>
+			</div>
+			<br><br>
+			<button onclick="spoilerShowHide2()">De unge nu til dags...</button>
+			<div id="spoiler2">
+					<p id="paragraph2">Verden er ikke, som da jeg var ung. Nu til dags sidder de unge bare med deres bip bip spil på deres smartphones og er konstant på Snapbook, Instachat, og Tinderface.
+						Da jeg var ung var ungdommen ordenlig! Vi hjalp gamle damer over vejen, og fulgte med i lokalpolitik, og der var 1,5 meter sne hver vinter, og sol hele sommeren, og ALT
+						var bedre. Vi havde heller ikke alt det global opvarmning! Nej, det er jo også noget der er kommet med nutidens unge. Og hvad gør de ved det? De spiller Digimon Go,
+						drikker energidrik, fester tre dage i ugen, stjæler cykler, får klamydia, ser Paradise Hoe'tel, og stemmer på Trump. Nej, det var aldrig gået i min ungdom! Vi var
+						dannede i min ungdom! Men dannelse bruger de ikke tid på længere. De vil hellere ud, ikke dannes, bare ud. Hvordan skal de dog nogensinde blive til hele mennesker?
+						Nej, alt var bedre i min ungdom!</p>
+			</div>
+		</div>
+		<br><br>
+	<button onclick="spoilerShowHide3()">Lommeregner</button>
+		<div id="spoiler3">
+			<form>
+				Nummer for x værdi.
+				<input type="number" id="n1">
+				<br><br>
+				Nummer for y værdi.
+				<input type="number" id="n2">
+				<br><br>
+				<button type="text" onclick="multiplyNumbers()">Udregn!</button>
+			</form>
+		</div>
+				<script>
+function spoilerShowHide2() {
+				    var x = document.getElementById("spoiler2");
+				    if (x.style.display === "none") {
+				        x.style.display = "block";
+				    } else {
+				        x.style.display = "none";
+				    }
+				}
+function spoilerShowHide1() {
+						var x = document.getElementById("spoiler1");
+						if (x.style.display === "none") {
+								x.style.display = "block";
+						} else {
+								x.style.display = "none";
+						}
+				}
+function spoilerShowHide3() {
+						var x = document.getElementById("spoiler3");
+						if (x.style.display === "none") {
+								x.style.display = "block";
+						} else {
+								x.style.display = "none";
+						}
+				}
+					//var a = prompt("Skriv et tal");
+					//var b = prompt("Skriv et andet tal");
+					//a = parseFloat(a);
+					//b = parseFloat(b);
+					//window.alert(a+b)
+					//var x = prompt("Skriv et tal, til en x værdi.");
+					//var y = prompt("Skriv et andet tal, til en y værdi.");
+					function multiplyNumbers(){
+						//return x * y;
+						var num1 = Number(document.getElementById("n1").value);
+						var num2 = Number(document.getElementById("n2").value);
+						window.alert(num1 * num2)
+					}
+				</script>
+		</body>
+	</html>
