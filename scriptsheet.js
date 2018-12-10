@@ -19,6 +19,6 @@ function sumNumbers() {
 						var num9 = (document.getElementById("n9").value);
 						var num10 = (document.getElementById("n10").value);
 
-						document.getElementById("sum_lommeregner_resultat").value=num1+num2+num3+num4+num5+num6+num7+num8+num9+num10;
+						document.getElementById("sum_lommeregner_resultat").value=num1+num2 ;
 
 }
