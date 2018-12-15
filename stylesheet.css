@@ -1,11 +1,22 @@
-  #overskrift_1 {
-    font-family: monospace;
-    font-size: 20px;
-    font-weight: 400;
-  }
+#overskrift_1 {
+  font-family: Times;
+  font-size: 20px;
+  font-weight: bold;
+}
+#tekst_1 {
+  font-family: Times;
+  font-weight: bold;
+}
 
-  #titel {
+#titel {
+font-family: Verdana;
+font-size: 28px;
+
+}
+
+#sum-lommeregner {
   font-family: Verdana;
-  font-size: 28px;
-
-  }
+  text-align: center;
+  font-weight: bold;
+}
+  
